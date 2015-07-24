@@ -1,0 +1,99 @@
+#site-head {
+  background-image: url('../imgs/bg_header_pattern.jpg');
+}
+
+.blog-title {
+  margin-bottom: -15px;
+}
+
+#site-head h1 {
+  font-family: 'Oswald';
+  font-size: 48pt;
+}
+
+#site-head img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+#details {
+  text-decoration: none;
+  background: #3A4145;
+  padding: 5px;
+  margin-left: 1em;
+  font-size: 85%;
+  display: inline-block;
+}
+
+.details {
+  font-size: 85%;
+}
+
+
+#site-head small {
+  font-size: 50%;
+  display: block;
+  font-family: 'Open Sans Condensed';
+}
+
+.fixed-nav {
+  background: #A0DE5A;
+  padding-left: 2%;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  left: 0;
+}
+
+.fn-item {
+  color: white;
+}
+
+a.fn-item.active {
+  color: #333;
+}
+
+#talks img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  text-align: center;
+}
+
+#acknowledgements .post-content {
+  display: block;
+  text-align: center;
+}
+
+#acknowledgements .post-content img {
+  display: inline-block;
+  height: 200px;
+  margin-top: 1em;
+  padding-left: 2em;
+  width: 200px;
+}
+
+@media only screen and (max-width: 1130px) {
+  .post.first .post-header .post-title {
+    margin-top: -1em;
+  }
+
+  .post-title {
+    margin-bottom: 1em;
+  }
+}
+
+@media only screen and (min-width: 1130px) {
+  .fixed-nav {
+    text-align: right;
+    max-width: 14%;
+  }
+
+  #talks img {
+    width: 200px;
+    height: 200px;
+  }
+}

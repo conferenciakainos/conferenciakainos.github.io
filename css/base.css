@@ -16,8 +16,9 @@
 #site-head img {
   width: 230px;
   height: 230px;
-  margin-top: -15px;
-  margin-bottom: -15px;
+  margin-top: 15px;
+  border-radius: 50%;
+  background: #e6e7e8;
 }
 
 #details {

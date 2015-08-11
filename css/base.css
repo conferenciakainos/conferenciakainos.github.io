@@ -1,5 +1,7 @@
 #site-head {
   background-image: url('../imgs/bg_header_pattern.jpg');
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 
 .blog-title {
@@ -12,11 +14,10 @@
 }
 
 #site-head img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  margin-top: -15px;
+  margin-bottom: -15px;
 }
 
 #details {
@@ -26,6 +27,7 @@
   margin-left: 1em;
   font-size: 85%;
   display: inline-block;
+  margin-bottom: 1em;
 }
 
 .details {
@@ -63,17 +65,13 @@ a.fn-item.active {
   text-align: center;
 }
 
-#acknowledgements .post-content {
-  display: block;
-  text-align: center;
+#acknowledgements p {
+  margin: 0;
+  padding: 0;
 }
 
-#acknowledgements .post-content img {
-  display: inline-block;
-  height: 200px;
-  margin-top: 1em;
-  padding-left: 2em;
-  width: 200px;
+#acknowledgements a {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1130px) {

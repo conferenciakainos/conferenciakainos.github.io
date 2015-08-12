@@ -14,11 +14,10 @@
 }
 
 #site-head img {
-  width: 230px;
-  height: 230px;
-  margin-top: 15px;
-  border-radius: 50%;
-  background: #e6e7e8;
+  width: 75%;
+  height: 75%;
+  border-bottom: 3px solid #3A4145;
+  margin-bottom: 1em;
 }
 
 #details {
@@ -66,9 +65,17 @@ a.fn-item.active {
   text-align: center;
 }
 
+#acknowledgements .post-content {
+  display: table;
+  text-align: center;
+  width: 100%;
+}
+
 #acknowledgements p {
   margin: 0;
-  padding: 0;
+  padding: 1em;
+  width: 50%;
+  display: table-cell;
 }
 
 #acknowledgements a {

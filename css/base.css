@@ -65,23 +65,6 @@ a.fn-item.active {
   text-align: center;
 }
 
-#acknowledgements .post-content {
-  display: table;
-  text-align: center;
-  width: 100%;
-}
-
-#acknowledgements p {
-  margin: 0;
-  padding: 1em;
-  width: 50%;
-  display: table-cell;
-}
-
-#acknowledgements a {
-  text-decoration: none;
-}
-
 @media only screen and (max-width: 1130px) {
   .post.first .post-header .post-title {
     margin-top: -1em;
@@ -90,7 +73,45 @@ a.fn-item.active {
   .post-title {
     margin-bottom: 1em;
   }
+
+  .register {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #A0DE5A;
+    z-index: 999;
+    text-align: center;
+    padding: 5px;
+    border-top: 2px solid #333;
+    width: 100%;
+  }
+
+  .register a {
+    text-decoration: none;
+  }
+
+  .register a:hover {
+    color: white;
+    font-weight: bold;
+  }
+
+  #acknowledgements p {
+    margin: 0;
+    padding: 1em;
+    display: block;
+    text-align: center;
+  }
+
+  #acknowledgements a {
+    text-decoration: none;
+  }
+
+  #acknowledgements img {
+    max-width: 50%;
+    height: auto;
+  }
 }
+
 
 @media only screen and (min-width: 1130px) {
   .fixed-nav {
@@ -98,8 +119,59 @@ a.fn-item.active {
     max-width: 14%;
   }
 
+  .register-mobile {
+    display: none;
+  }
+
   #talks img {
     width: 200px;
     height: 200px;
   }
+
+  #acknowledgements .post-content {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+
+  #acknowledgements p {
+    margin: 0;
+    padding: 1em;
+    width: 50%;
+    display: table-cell;
+    table-layout: fixed;
+  }
+
+  #acknowledgements a {
+    text-decoration: none;
+  }
+
+  #acknowledgements img {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .register {
+    display: inline;
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    background: #A0DE5A;
+    z-index: 999;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #333;
+  }
+
+  .register a {
+    text-decoration: none;
+  }
+
+  .register a:hover {
+    color: white;
+    font-weight: bold;
+  }
 }
+
+
+
